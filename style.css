@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Grand+Hotel&display=swap');
+
+body{
+	background-image: url("img/34253.jpg");
+	background-size: cover;
+	text-align: center;
+	color: white;
+	padding: 0;
+	margin: 0;
+	overflow-x: hidden;
+	overflow-y: hidden;
+}
+.title{
+	color: #FDDA23;
+	background-color: #030414;
+	margin: 0;
+	padding: 30px;
+	margin-bottom: 50px;
+	font-family: 'Grand Hotel', cursive;
+	font-size: 43px;
+	text-shadow: 3px 3px 8px #ffffffaa;
+	box-shadow: 0px 3px 5px #000;
+}
+
+.mish-foto{
+	box-shadow: 3px 3px 50px #000000;
+	max-width: 250px;
+	margin-bottom: 50px;
+}
+
+.dedicatoria{
+	font-family: monospace;
+	text-shadow: 3px 3px #000;
+	font-size: 20px;
+	width: 900px;
+	margin: auto;
+	margin-bottom: 50px;
+	
+}
+
+.redcolor{
+	color: red;
+}
+.greencolor{
+	color: green;
+}
+
