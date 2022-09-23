@@ -3,12 +3,12 @@
 body{
 	background-image: url("img/34253.jpg");
 	background-size: cover;
+	background-repeat: no-repeat;
 	text-align: center;
 	color: white;
 	padding: 0;
 	margin: 0;
 	overflow-x: hidden;
-	overflow-y: hidden;
 }
 .title{
 	color: #FDDA23;
@@ -31,11 +31,11 @@ body{
 .dedicatoria{
 	font-family: monospace;
 	text-shadow: 3px 3px #000;
-	font-size: 20px;
+	font-size: 2rem;
 	width: 900px;
+	max-width: 90vw;
 	margin: auto;
 	margin-bottom: 50px;
-	
 }
 
 .redcolor{
@@ -45,3 +45,13 @@ body{
 	color: green;
 }
 
+@media (max-width:700px) {
+	.title{
+		font-size: 30px;
+	}
+	.dedicatoria{
+		width: auto;
+		margin: 30px ;
+		
+	}	
+}
